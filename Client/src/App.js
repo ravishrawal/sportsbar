@@ -1,6 +1,7 @@
 import './App.css';
 import React, {Component} from 'react'
 import {Route, BrowserRouter} from 'react-router-dom'
+import Stream from './TwitchPlayer.jsx'
 
 
 class App extends Component {
@@ -14,7 +15,10 @@ class App extends Component {
       <div className="App" >
         <header className="App-header">
         </header>
-        <h1>HI</h1>
+        hi
+        <BrowserRouter>
+          <Route path='/stream' component={Stream}/>
+        </BrowserRouter>
       </div>
     );
   }
