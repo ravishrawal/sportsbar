@@ -14,10 +14,7 @@ class App extends Component {
       <div className="App" >
         <header className="App-header">
         </header>
-        // <BrowserRouter>
-        //   <Route path="/passcode" component={OTPInputForm} />
-        //   <Route path="/visitors/new" component={NewVisitorForm} />
-        // </BrowserRouter>
+        <h1>HI</h1>
       </div>
     );
   }
